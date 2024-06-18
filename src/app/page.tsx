@@ -1,15 +1,9 @@
-import { CodeBox } from "./componentes/CodeBox";
-import { PreviewBox } from "./componentes/PreviewBox";
+import { Playground } from "@/components";
 
 export default function Home() {
   return (
-    <main className="flex w-full justify-between">
-      <section className="w-[100%]">
-        <CodeBox />
-      </section>
-      <section className="w-[100%]">
-        <PreviewBox />
-      </section>
+    <main className="">
+      <Playground code={"// make your component"} />
     </main>
   );
 }
